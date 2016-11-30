@@ -5,7 +5,7 @@ from azure.storage.blob import BlockBlobService
 import ftplib
 import time
 
-blob_service = BlockBlobService(account_name='myiothubiv', account_key='o8IeKnrSSbbyTWBnCJfkRiYMy1x2MICwRB00a6nXZ/YczkTCBFiMnAsxaEPljH8raOBuPj70H3Bv0O07GtAN6Q==')
+blob_service = BlockBlobService(account_name='myiothubiv', account_key='0a6nXZ/YczkTCBFiMnAsxaEPljH8raOBuPj70H3Bv0O07GtAN6Q==')
 
 print "Updating index.html..."
 ht = open('index.html','w')

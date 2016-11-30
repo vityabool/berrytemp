@@ -9,7 +9,7 @@ from azure.storage.blob import BlockBlobService
 from azure.storage.blob import ContentSettings
 
 
-blob_service = BlockBlobService(account_name='myiothubiv', account_key='o8IeKnrSSbbyTWBnCJfkRiYMy1x2MICwRB00a6nXZ/YczkTCBFiMnAsxaEPljH8raOBuPj70H3Bv0O07GtAN6Q==')
+blob_service = BlockBlobService(account_name='myiothubiv', account_key='o8IeKnrSTCBFiMnAsxaEPljH8raOBuPj70H3Bv0O07GtAN6Q==')
 
 
 
