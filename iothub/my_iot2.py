@@ -40,7 +40,7 @@ protocol = IoTHubTransportProvider.AMQP
 
 # String containing Hostname, Device Id & Device Key in the format:
 # "HostName=<host_name>;DeviceId=<device_id>;SharedAccessKey=<device_key>"
-connection_string = "HostName=MyPyHub.azure-devices.net;DeviceId=myraspb;SharedAccessKey=HWxvFLJOPolsR2tekGJQaf0K5cAuDCvIP1BocSI88F0="
+connection_string = "device connection string"
 
 msg_txt = "{\"deviceId\": \"myPythonDevice\",\"windSpeed\": %.2f}"
 

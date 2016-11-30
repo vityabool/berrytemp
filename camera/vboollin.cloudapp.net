@@ -2,11 +2,11 @@ from azure.storage.blob import BlockBlobService
 
 print "<HTML><BODY>"
 
-blob_service = BlockBlobService(account_name='myiothubiv', account_key='o8IeKnrSSbbyTWBnCJfkRiYMy1x2MICwRB00a6nXZ/YczkTCBFiMnAsxaEPljH8raOBuPj70H3Bv0O07GtAN6Q==')
+blob_service = BlockBlobService(account_name='myiothubiv', account_key='KEY')
 
 
 generator = blob_service.list_blobs('img')
 for blob in generator:
-    print( '<a href="https://myiothubiv.blob.core.windows.net/img/' + blob.name + '">' + blob.name + '</a>')
+    print( '<a href="https://blob_url/img/' + blob.name + '">' + blob.name + '</a>')
 
 print "</BODY></HTML>"

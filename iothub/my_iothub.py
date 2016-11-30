@@ -12,7 +12,7 @@ from iothub_client_args import *
 protocol = IoTHubTransportProvider.AMQP
 message_timeout = 10000
 
-connection_string = "HostName=MyPyHub.azure-devices.net;DeviceId=myraspb;SharedAccessKey=HWxvFLJOPolsR2tekGJQaf0K5cAuDCvIP1BocSI88F0="
+connection_string = "Device connection string"
 
 def set_certificates(iotHubClient):
     from iothub_client_cert import certificates
